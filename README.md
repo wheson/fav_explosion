@@ -5,7 +5,7 @@
 $git clone git@github.com:wheson/fav_explosion.git
 ```
 
-- .envファイルを置く
+- .envファイルを下記のように記入し，fav_explosionディレクトリ上に置く
 ```
 # それぞれ取得したものを入れる
 CONSUMER_KEY=""
