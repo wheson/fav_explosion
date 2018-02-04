@@ -29,11 +29,11 @@ end
 
 twitter = TwitterClient.new
 print "対象のアカウントIDを入力\n@"
-account_id = gets.chomp
-twitter.show_user_profile(account_id)
+user_id = gets.chomp
+twitter.show_user_profile(user_id)
 print "対象のユーザーに間違えないですか？(y/n): "
 if gets.chomp == "y"
   puts "爆撃開始"
-  twitter.fav_explosion(account_id)
+  twitter.fav_explosion(user_id)
 end
 puts "プログラムを終了します"
