@@ -1,4 +1,4 @@
-# fav_Explosion
+# fav_explosion
 ## 利用方法
 - git clone
 ```
